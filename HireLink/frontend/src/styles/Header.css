@@ -1,0 +1,18 @@
+/* Remove blue outline for the Register button */
+.site-menu .has-children > button {
+  outline: none; /* Remove focus outline */
+  border: none; /* Remove border if any */
+  background-color: transparent; /* Ensure background is transparent */
+  color: white; /* Set text color */
+  cursor: pointer; /* Ensure it looks clickable */
+}
+
+.site-menu .has-children > button:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: none; /* Remove any focus shadow */
+}
+
+.site-menu .has-children > button:hover {
+  outline: none; /* Remove hover outline */
+  box-shadow: none; /* Remove hover shadow */
+}

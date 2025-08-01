@@ -1,0 +1,96 @@
+# === PYTHON / DJANGO ===
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+.env.local
+*.secret
+secrets.json
+
+# Virtual environment
+env/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# VSCode
+.vscode/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === NODE / REACT ===
+
+# dependencies
+node_modules/
+
+# build
+build/
+dist/
+
+# production
+.env.production
+.env.development
+.env.local
+.npmrc
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+coverage/
+*.lcov
+
+# misc
+.DS_Store
+*.tgz
+.parcel-cache/
+.cache/
+
+# Next.js (if using)
+.next/
+
+# React Native (if using)
+ios/
+android/
+
+# === SYSTEM FILES ===
+
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === DOCKER ===
+*.pid
+*.pid.lock
+
+# Ignore local Docker files (optional)
+docker-compose.override.yml

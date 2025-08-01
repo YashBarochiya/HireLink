@@ -1,0 +1,87 @@
+/* Contact Hero Section */
+.contact-hero-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact-hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .contact-hero-section p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Info Section */
+  .contact-info-container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .contact-item .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Icons */
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    margin: 0 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .facebook {
+    color: #3b5998;
+  }
+  
+  .twitter {
+    color: #1da1f2;
+  }
+  
+  .instagram {
+    color: #e1306c;
+  }
+  
+  .linkedin {
+    color: #0077b5;
+  }
+  

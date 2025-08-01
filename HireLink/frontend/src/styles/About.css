@@ -1,0 +1,111 @@
+/* Hero Section */
+.about-hero-section {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  margin-top: 70px;
+  border-bottom: 5px solid #ffc107; /* Add a yellow border for contrast */
+}
+
+.about-hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.about-hero-section p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Mission Section */
+.mission-section {
+  background: #f8f9fa;
+  padding: 50px 20px;
+  border-left: 5px solid #6a11cb; /* Add a purple border for contrast */
+}
+
+.mission-section .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.mission-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Why Choose Us Section */
+.why-choose-us-section {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradient background */
+  padding: 50px 20px;
+}
+
+.why-choose-us-section .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.feature-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box .icon {
+  font-size: 2.5rem;
+  color: #6a11cb;
+  margin-bottom: 1rem;
+}
+
+.feature-box h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background: linear-gradient(135deg, #2575fc, #6a11cb); /* Gradient background */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-section .btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-section .btn-warning:hover {
+  background-color: #e0a800;
+}
